@@ -30,9 +30,10 @@ export const navLinks = [
     id: "about",
     title: "About",
   },
+ 
   {
     id: "work",
-    title: "Work",
+    title: "Work Experience",
   },
   {
     id: "contact",
@@ -42,19 +43,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Networking",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "DevOps Automation",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Machine Learning",
     icon: creator,
   },
 ];
@@ -116,85 +117,53 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Application Engineer",
+    company_name: "Embedded Works",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "IoT & telematics downstream data integration for real-time tracking and other use cases.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Data packet analysis for various communication protocols, such as Wi-Fi, Bluetooth Low Energy (BLE), CAN, and other relevant standards.",
     ],
   },
   {
-    title: "React Native Developer",
+    title: "Technical Support Engineer[DevOps]",
     company_name: "Tesla",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Tier 3 onsite and remote IT support",
+      "Python Automation",
+      "Conducted site visits and IT rack refreshments.",
+      "Created help sheets, and technical articles for systems at Tesla.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Resident Advisor",
+    company_name: "CSUS",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Enforced College Living policies, promoting academic excellence, and safe space for students.",
+      "Created, marketed, and led student centered hall programs for social, education, and diversity goals.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Electronic Repair Technician",
+    company_name: "Experimax",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Customer support",
+      "Diagnosed and resolved hardware software issues across range of devices including smartphones, tablets, wearables, computers and more.",
     ],
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
 
 const projects = [
   {
@@ -262,4 +231,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
