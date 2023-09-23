@@ -41,7 +41,7 @@ export const navLinks = [
   },
 ];
 
-const testimonies = [
+const testimonials = [
   {
   },
   
@@ -236,4 +236,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects, testimonies};
+export { services, technologies, experiences, projects, testimonials};
