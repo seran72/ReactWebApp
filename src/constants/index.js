@@ -41,6 +41,11 @@ export const navLinks = [
   },
 ];
 
+const testimonies = [
+  {
+  },
+  
+  ];
 const services = [
   {
     title: "Web Development",
@@ -231,4 +236,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, projects, testimonies};
